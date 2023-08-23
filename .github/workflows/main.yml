@@ -1,1 +1,23 @@
+on:
+ push:
+  branches:
+    - master
+
+
+
+
+
+jobs:
+  build:
+    runs-on: ubuntu -latest
+
+    steps:
+      - name: 'Testing Githun action'
+        run: pwd
+
+      - name: 'Testing printing'
+        run: echo mohamed
+
+
+
 
